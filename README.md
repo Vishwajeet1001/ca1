@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Git Commit States
 
 ## 1. Untracked
@@ -11,6 +12,21 @@ A file whose changes have been permanently recorded in the repository with `git 
 
 Use `git status` to check the state of files and `git log` to view the commit history.
 
+=======
+Git Commit States
+
+1. Untracked:
+   - A newly created file that Git does not track yet.
+   - Appears in `git status` under "Untracked files."
+   
+2. Staged:
+   - A file that has been added to the staging area using `git add <filename>`.
+   - Git is now tracking changes, but they are not yet saved permanently.
+   
+3. Committed:
+   - A file whose changes have been saved in the repository using `git commit`.
+   - The commit creates a snapshot of the file at that point.
+>>>>>>> 53e7430026922f615d0a87faae8d56dbb76c5684
 
 ## Importance of Git History in Version Control and Debugging
 
